@@ -151,7 +151,7 @@ namespace NFSTMXEditor
                     {
                         if (audioEntries[audioEntries.IndexOf(entry) - 1].type == "GIN")
                         {
-                            cumulativeOffset += GIN.WriteGINToMemory(new MemoryStream(), audioEntries[audioEntries.IndexOf(entry) - 1].ginData);
+                            cumulativeOffset += GIN.GetGINLength(new MemoryStream(), audioEntries[audioEntries.IndexOf(entry) - 1].ginData);
                         }
                         else
                         {

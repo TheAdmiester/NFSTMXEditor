@@ -95,7 +95,7 @@ namespace NFSTMXEditor
             file.WriteBytes(gin.audioData);
         }
 
-        public static int WriteGINToMemory(MemoryStream file, GIN gin)
+        public static int GetGINLength(MemoryStream file, GIN gin)
         {
             file.WriteString("Gnsu20", StringCoding.Raw);
             file.WriteBytes(new byte[] { 0x0, 0x0 });
