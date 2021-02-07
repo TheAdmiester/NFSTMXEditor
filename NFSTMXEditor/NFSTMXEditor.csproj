@@ -80,9 +80,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AudioEntry.cs" />
-    <Compile Include="GIN.cs" />
-    <Compile Include="TMX.cs" />
+    <Compile Include="Entities\AudioEntry.cs" />
+    <Compile Include="Entities\GIN.cs" />
+    <Compile Include="Entities\TMX.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
